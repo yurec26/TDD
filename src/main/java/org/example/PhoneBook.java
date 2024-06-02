@@ -21,4 +21,7 @@ public class PhoneBook {
     public static Long findByName(BiMap<String, Long> names_phones,String name){
         return names_phones.get(name);
     }
+    public static String printAllNames(BiMap<String, Long> names_phones){
+        return null;
+    }
 }
