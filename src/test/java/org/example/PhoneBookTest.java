@@ -1,5 +1,7 @@
 package org.example;
 
+import com.google.common.collect.BiMap;
+import com.google.common.collect.HashBiMap;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -7,7 +9,7 @@ import java.util.HashMap;
 import java.util.Map;
 
 class PhoneBookTest {
-    public static  Map<String, Long> names_phones_Test = new HashMap<>();
+    public static BiMap<String, Long> names_phones_Test = HashBiMap.create();
     @Test
     void add_Test() {
         String name = "Biba";
