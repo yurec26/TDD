@@ -30,4 +30,14 @@ class PhoneBookTest {
         //
         Assertions.assertEquals(expected,actual);
     }
+
+    @Test
+    void findByName() {
+        String name = "Biba";
+        //
+        Long expected = 8_800_555_35_35L;
+        Long actual = PhoneBook.findByName(names_phones_Test,name);
+        //
+        Assertions.assertEquals(expected,actual);
+    }
 }

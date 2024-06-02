@@ -5,6 +5,7 @@ import com.google.common.collect.BiMap;
 import com.google.common.collect.HashBiMap;
 
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
 
 public class PhoneBook {
@@ -16,5 +17,8 @@ public class PhoneBook {
     }
     public static String findByNumber(BiMap<String, Long> names_phones,Long phone){
         return names_phones.inverse().get(phone);
+    }
+    public static Long findByName(BiMap<String, Long> names_phones,String name){
+        return 0L;
     }
 }
