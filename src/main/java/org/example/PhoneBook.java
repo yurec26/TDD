@@ -9,4 +9,7 @@ public class PhoneBook {
         names_phones.put(name,phone);
         return names_phones.size();
     }
+    public static String findByNumber(Map<String, Long> names_phones,Long phone){
+        return null;
+    }
 }
