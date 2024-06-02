@@ -19,6 +19,6 @@ public class PhoneBook {
         return names_phones.inverse().get(phone);
     }
     public static Long findByName(BiMap<String, Long> names_phones,String name){
-        return 0L;
+        return names_phones.get(name);
     }
 }
