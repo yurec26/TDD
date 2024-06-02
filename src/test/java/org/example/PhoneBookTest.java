@@ -5,10 +5,6 @@ import com.google.common.collect.HashBiMap;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-import java.util.HashMap;
-import java.util.Map;
-import java.util.TreeMap;
-
 class PhoneBookTest {
     public static BiMap<String, Long> names_phones_Test = HashBiMap.create();
 
